@@ -1,0 +1,19 @@
+p,
+li {
+    font-weight: 300;
+    font-size: 25;
+}
+
+h1 {
+    font-size: 40;
+}
+
+h2 {
+    font-size: 36;
+    padding: 10px;
+}
+
+.page {
+    width: 90%;
+    height: 100vh;
+}
