@@ -7,11 +7,11 @@ import homeStyles from '../../HomePage.module.css';
 
 function Project({ projectName, link, description, currentStatus, relatedImages, learningPoints, isRight }) {
     return (
-        <Card style={{ margin: '20px 0' }}>
+        <Card style={{ margin: '20px 0', padding: '20px' }}>
             <h2>{projectName}</h2>
-            <p>{currentStatus}</p>
+            <p><strong>Status:</strong> {currentStatus}</p>
             <p>{description}</p>
-            <p>Learning points:</p>
+            <strong>Learning points:</strong>
             {
                 learningPoints.map(x => <li>{x}</li>)
             }
